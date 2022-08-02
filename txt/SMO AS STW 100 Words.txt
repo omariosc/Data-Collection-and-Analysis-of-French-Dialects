@@ -1,0 +1,2048 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.functions.SMO -C 1.0 -L 0.001 -P 1.0E-12 -N 0 -V -1 -W 1 -K "weka.classifiers.functions.supportVector.PolyKernel -E 1.0 -C 250007" -calibrator "weka.classifiers.functions.Logistic -R 1.0E-8 -M -1 -num-decimal-places 4"
+Relation:     french-weka.filters.unsupervised.attribute.StringToWordVector-R1-W100-prune-rate-1.0-N0-stemmerweka.core.stemmers.NullStemmer-stopwords-handlerweka.core.stopwords.Null-M1-tokenizerweka.core.tokenizers.WordTokenizer -delimiters " \r\n\t.,;:\'\"()?!"-weka.filters.unsupervised.attribute.Reorder-R2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185,186,187,188,189,190,191,192,193,194,195,196,1-weka.filters.supervised.attribute.AttributeSelection-Eweka.attributeSelection.InfoGainAttributeEval-Sweka.attributeSelection.Ranker -T 0.0 -N -1
+Instances:    23339
+Attributes:   135
+              [list of attributes omitted]
+Test mode:    5-fold cross-validation
+
+=== Classifier model (full training set) ===
+
+SMO
+
+Kernel used:
+  Linear Kernel: K(x,y) = <x,y>
+
+Classifier for classes: CD, CI
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -2.0862 * (normalized) territoire
+ +       0.7091 * (normalized) marché
+ +       0.896  * (normalized) Côte
+ +       1.1018 * (normalized) d’Ivoire
+ +      -1.0271 * (normalized) Wonder
+ +      -1.0271 * (normalized) Woman
+ +       0.0211 * (normalized) de
+ +      -0      * (normalized) Sénégal
+ +       1.0513 * (normalized) Concentré
+ +       0.4399 * (normalized) tu
+ +      -0      * (normalized) Dakar
+ +      -2.1079 * (normalized) Tshisekedi
+ +       0.2342 * (normalized) d
+ +       0.8856 * (normalized) Maroc
+ +       0.2713 * (normalized) vous
+ +      -1.7653 * (normalized) 1984
+ +       1      * (normalized) Ousmane
+ +       0.142  * (normalized) l
+ +      -2.3577 * (normalized) Mobutu
+ +      -2.4226 * (normalized) poids
+ +      -2.3781 * (normalized) Kabund
+ +       1.1588 * (normalized) BTP
+ +      -0.0477 * (normalized) la
+ +      -0.1254 * (normalized) et
+ +      -1.7073 * (normalized) Walungu
+ +       0.0025 * (normalized) des
+ +       0.5017 * (normalized) Année
+ +       1      * (normalized) Lait
+ +       0.6239 * (normalized) joueurs
+ +       0.5932 * (normalized) –
+ +      -2.3718 * (normalized) Kinshasa
+ +       0.1153 * (normalized) n
+ +      -0.9489 * (normalized) j
+ +       1.3879 * (normalized) Astrid
+ +      -2.4143 * (normalized) confinement
+ +      -2.1055 * (normalized) Congo
+ +      -0.1079 * (normalized) Félix
+ +      -2.0747 * (normalized) film
+ +       0.1649 * (normalized) complète
+ +      -0.1889 * (normalized) ils
+ +      -0.3458 * (normalized) qu
+ +       0.1279 * (normalized) du
+ +       0.9968 * (normalized) d’intérieur
+ +      -0.3866 * (normalized) match
+ +      -1.847  * (normalized) santé
+ +       0.0716 * (normalized) coach
+ +       0.1909 * (normalized) votre
+ +      -0.5851 * (normalized) pays
+ +      -1.8925 * (normalized) pouvoirs
+ +      -1.8463 * (normalized) perte
+ +      -0.4894 * (normalized) s
+ +       0.4014 * (normalized) rencontre
+ +      -0.1918 * (normalized) dans
+ +       0.1027 * (normalized) critique
+ +       0.1253 * (normalized) les
+ +      -0.3188 * (normalized) site
+ +      -1.7385 * (normalized) population
+ +       0.5251 * (normalized) club
+ +      -0.0087 * (normalized) qui
+ +       0.7472 * (normalized) mondial
+ +       0.4088 * (normalized) femmes
+ +       0.2022 * (normalized) équipe
+ +      -0.1521 * (normalized) secteur
+ +      -0.8297 * (normalized) c
+ +       0.0893 * (normalized) pour
+ +       0.2132 * (normalized) ne
+ +      -1.2224 * (normalized) homme
+ +       0.0677 * (normalized) à
+ +      -1.6627 * (normalized) produits
+ +       0.0899 * (normalized) que
+ +      -0.7276 * (normalized) ces
+ +      -0.1518 * (normalized) il
+ +       0.2128 * (normalized) avait
+ +      -0.8916 * (normalized) Il
+ +       0.0476 * (normalized) nous
+ +      -1.105  * (normalized) -
+ +       0.293  * (normalized) rapport
+ +      -0.2873 * (normalized) 2021
+ +      -0.32   * (normalized) sont
+ +      -0.4788 * (normalized) «
+ +       0.5164 * (normalized) plaindre
+ +       0.2778 * (normalized) c’est
+ +       0.2576 * (normalized) face
+ +      -0.0354 * (normalized) en
+ +      -0.1687 * (normalized) Le
+ +       0.032  * (normalized) leur
+ +       0.1893 * (normalized) femme
+ +       0.2145 * (normalized) concentré
+ +      -0.1172 * (normalized) est
+ +      -0.8834 * (normalized) enfants
+ +       0.484  * (normalized) me
+ +      -0.4447 * (normalized) »
+ +      -1.7161 * (normalized) pouvoir
+ +      -0.093  * (normalized) ont
+ +       0.1299 * (normalized) été
+ +       0.2717 * (normalized) mon
+ +       0.1101 * (normalized) se
+ +       0.2509 * (normalized) n’a
+ +       0.2908 * (normalized) je
+ +       0.2318 * (normalized) a
+ +       0.2821 * (normalized) jeunes
+ +      -0.2179 * (normalized) La
+ +       0.223  * (normalized) qu’il
+ +       0.0244 * (normalized) plus
+ +      -0.2255 * (normalized) ses
+ +       0.0733 * (normalized) n’est
+ +       0.0916 * (normalized) un
+ +       0.1045 * (normalized) ou
+ +       0.0603 * (normalized) le
+ +       0.0498 * (normalized) lui
+ +       0.2345 * (normalized) bien
+ +      -0.1916 * (normalized) pas
+ +       0.1006 * (normalized) sur
+ +      -0.0867 * (normalized) point
+ +      -0.1738 * (normalized) comme
+ +       0.1633 * (normalized) C’est
+ +       0.358  * (normalized) Je
+ +      -0.0428 * (normalized) au
+ +       0.0451 * (normalized) vie
+ +       0.1669 * (normalized) d’une
+ +      -0.393  * (normalized) Nous
+ +      -0.0472 * (normalized) sans
+ +      -0.1788 * (normalized) jour
+ +       0.2141 * (normalized) sera
+ +      -0.5521 * (normalized) autres
+ +      -0.0542 * (normalized) même
+ +       0.3928 * (normalized) nos
+ +      -0.147  * (normalized) faire
+ +       0.4    * (normalized) notre
+ +       0.2361 * (normalized) 5
+ +       0.7658
+
+Number of kernel evaluations: 97487834 (42.108% cached)
+
+Classifier for classes: CD, DZ
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -2.0002 * (normalized) territoire
+ +       0.0005 * (normalized) marché
+ +       1      * (normalized) Côte
+ +       0      * (normalized) d’Ivoire
+ +      -1.0002 * (normalized) Wonder
+ +      -1.0002 * (normalized) Woman
+ +       0.0002 * (normalized) de
+ +      -1      * (normalized) Sénégal
+ +      -0.0004 * (normalized) tu
+ +      -1      * (normalized) Dakar
+ +      -2.0005 * (normalized) Tshisekedi
+ +      -0.0002 * (normalized) d
+ +       1.9102 * (normalized) Maroc
+ +      -0.0005 * (normalized) vous
+ +      -2      * (normalized) 1984
+ +      -0.0014 * (normalized) l
+ +      -2.0001 * (normalized) Mobutu
+ +      -2.0003 * (normalized) poids
+ +      -2.0017 * (normalized) Kabund
+ +      -0      * (normalized) la
+ +      -0      * (normalized) et
+ +      -1.9993 * (normalized) Walungu
+ +      -0.0002 * (normalized) des
+ +       0.0007 * (normalized) Année
+ +       1.9097 * (normalized) joueurs
+ +       0.0006 * (normalized) –
+ +      -2.0021 * (normalized) Kinshasa
+ +      -0.0922 * (normalized) n
+ +      -0.0045 * (normalized) j
+ +      -2.0008 * (normalized) confinement
+ +      -2.0013 * (normalized) Congo
+ +      -0.0005 * (normalized) Félix
+ +      -1.9998 * (normalized) film
+ +       0.0009 * (normalized) complète
+ +       0.0008 * (normalized) ils
+ +      -1.9983 * (normalized) qu
+ +      -0      * (normalized) du
+ +       0.0007 * (normalized) match
+ +      -1.9999 * (normalized) santé
+ +       1      * (normalized) coach
+ +      -1.9991 * (normalized) votre
+ +      -1.9994 * (normalized) pays
+ +      -1.9998 * (normalized) pouvoirs
+ +      -1.9994 * (normalized) perte
+ +      -1.9045 * (normalized) s
+ +       0.0015 * (normalized) rencontre
+ +      -0.0001 * (normalized) dans
+ +       0.0005 * (normalized) critique
+ +       0.0001 * (normalized) les
+ +      -1.9998 * (normalized) site
+ +      -1.9997 * (normalized) population
+ +       1.9097 * (normalized) club
+ +       0.0001 * (normalized) qui
+ +      -1      * (normalized) mondial
+ +       0.0002 * (normalized) femmes
+ +       1.9075 * (normalized) équipe
+ +      -1.9999 * (normalized) secteur
+ +      -1.998  * (normalized) c
+ +      -0.0004 * (normalized) pour
+ +      -0.0001 * (normalized) ne
+ +      -1      * (normalized) homme
+ +       0.0002 * (normalized) à
+ +      -1.9999 * (normalized) produits
+ +       0.0003 * (normalized) que
+ +      -0.0015 * (normalized) ces
+ +      -0.0007 * (normalized) il
+ +      -0.0919 * (normalized) avait
+ +      -1.9084 * (normalized) Il
+ +       0.0003 * (normalized) nous
+ +       0.0008 * (normalized) -
+ +       0.0001 * (normalized) rapport
+ +      -1.9095 * (normalized) 2021
+ +      -1.9971 * (normalized) sont
+ +       0      * (normalized) «
+ +       0.0007 * (normalized) plaindre
+ +       0.0006 * (normalized) c’est
+ +       0.0884 * (normalized) face
+ +      -0.0003 * (normalized) en
+ +      -0      * (normalized) Le
+ +       0.0003 * (normalized) leur
+ +       0.0006 * (normalized) femme
+ +       0.0001 * (normalized) concentré
+ +      -0.0002 * (normalized) est
+ +       0.0008 * (normalized) enfants
+ +       0.0009 * (normalized) me
+ +      -0.0003 * (normalized) »
+ +      -0.0007 * (normalized) pouvoir
+ +       0.0001 * (normalized) ont
+ +       0.0002 * (normalized) été
+ +       0.0006 * (normalized) mon
+ +       0.0005 * (normalized) se
+ +       0.0005 * (normalized) n’a
+ +       0.0007 * (normalized) je
+ +       0.0002 * (normalized) a
+ +       0.0005 * (normalized) jeunes
+ +      -0.0009 * (normalized) La
+ +       0.0006 * (normalized) qu’il
+ +      -0.001  * (normalized) plus
+ +      -0.0001 * (normalized) ses
+ +       0.0001 * (normalized) n’est
+ +      -0      * (normalized) un
+ +       0.0001 * (normalized) ou
+ +       0.0004 * (normalized) le
+ +       0.0003 * (normalized) lui
+ +       0.0004 * (normalized) bien
+ +       0.0001 * (normalized) pas
+ +      -0      * (normalized) sur
+ +       0.0869 * (normalized) point
+ +      -0.0001 * (normalized) comme
+ +       0.0003 * (normalized) C’est
+ +       0.0005 * (normalized) Je
+ +      -0.0001 * (normalized) au
+ +       0      * (normalized) vie
+ +       0.0002 * (normalized) d’une
+ +      -0.0002 * (normalized) Nous
+ +       0      * (normalized) sans
+ +      -0.0007 * (normalized) jour
+ +      -0      * (normalized) sera
+ +      -0.0013 * (normalized) autres
+ +       0      * (normalized) même
+ +       0.0003 * (normalized) nos
+ +      -0.0001 * (normalized) faire
+ +       0.0001 * (normalized) notre
+ +      -0      * (normalized) 5
+ +       0.9997
+
+Number of kernel evaluations: 139190183 (42.547% cached)
+
+Classifier for classes: CD, FR
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -2      * (normalized) territoire
+ +      -0.4196 * (normalized) marché
+ +      -0.9615 * (normalized) Côte
+ +      -0.9615 * (normalized) d’Ivoire
+ +      -1.7826 * (normalized) Wonder
+ +      -0.7826 * (normalized) Woman
+ +      -0.2257 * (normalized) de
+ +       0.7052 * (normalized) Sénégal
+ +       0.1021 * (normalized) Concentré
+ +       0.2883 * (normalized) tu
+ +      -1      * (normalized) Dakar
+ +      -2.125  * (normalized) Tshisekedi
+ +       0.4793 * (normalized) d
+ +      -1      * (normalized) Maroc
+ +       0.2339 * (normalized) vous
+ +      -2.284  * (normalized) 1984
+ +       0.4636 * (normalized) l
+ +      -2.6663 * (normalized) Mobutu
+ +      -2.1152 * (normalized) poids
+ +      -2.0689 * (normalized) Kabund
+ +      -0.178  * (normalized) la
+ +      -0.236  * (normalized) et
+ +      -1.716  * (normalized) Walungu
+ +      -0.2714 * (normalized) des
+ +       0.4712 * (normalized) joueurs
+ +       0.4368 * (normalized) –
+ +      -2.2153 * (normalized) Kinshasa
+ +       0.7912 * (normalized) n
+ +       0.2675 * (normalized) j
+ +       0.7675 * (normalized) Astrid
+ +      -2.3075 * (normalized) confinement
+ +      -2.4037 * (normalized) Congo
+ +       0.1809 * (normalized) Félix
+ +       0.5867 * (normalized) film
+ +       0.9408 * (normalized) complète
+ +       0.1586 * (normalized) ils
+ +       0.2225 * (normalized) qu
+ +      -0.0615 * (normalized) du
+ +      -1.2023 * (normalized) match
+ +      -1.5031 * (normalized) santé
+ +       0.4626 * (normalized) coach
+ +       0.4495 * (normalized) votre
+ +      -1.9236 * (normalized) pays
+ +      -2.0663 * (normalized) pouvoirs
+ +      -1.7529 * (normalized) perte
+ +       0.422  * (normalized) s
+ +       0.0872 * (normalized) rencontre
+ +      -0.1917 * (normalized) dans
+ +       0.4437 * (normalized) critique
+ +       0.0013 * (normalized) les
+ +      -0.2546 * (normalized) site
+ +      -1.7787 * (normalized) population
+ +      -0.0322 * (normalized) club
+ +       0.0237 * (normalized) qui
+ +       0.6021 * (normalized) femmes
+ +       0.0537 * (normalized) équipe
+ +      -1.6668 * (normalized) secteur
+ +       0.31   * (normalized) c
+ +      -0.1226 * (normalized) pour
+ +       0.0784 * (normalized) ne
+ +       0.0467 * (normalized) homme
+ +       0.5117 * (normalized) plaint
+ +      -0.0471 * (normalized) à
+ +      -1.7738 * (normalized) produits
+ +       0.2848 * (normalized) plaints
+ +       0.0684 * (normalized) que
+ +      -0.3665 * (normalized) ces
+ +      -0.0228 * (normalized) il
+ +      -0.0486 * (normalized) avait
+ +      -0.2642 * (normalized) Il
+ +       0.1953 * (normalized) nous
+ +       0.1786 * (normalized) -
+ +      -0.9871 * (normalized) rapport
+ +      -0.6557 * (normalized) 2021
+ +      -0.3103 * (normalized) sont
+ +      -0.6462 * (normalized) «
+ +       0.9203 * (normalized) habité
+ +       0.4332 * (normalized) plaindre
+ +       0.0398 * (normalized) c’est
+ +       0.1662 * (normalized) face
+ +      -0.102  * (normalized) en
+ +      -0.0537 * (normalized) Le
+ +       0.3341 * (normalized) leur
+ +       0.0937 * (normalized) femme
+ +       0.4115 * (normalized) concentré
+ +      -0.1098 * (normalized) est
+ +       0.3932 * (normalized) enfants
+ +       0.2629 * (normalized) me
+ +       0.0005 * (normalized) »
+ +      -1.2583 * (normalized) pouvoir
+ +      -0.0529 * (normalized) ont
+ +      -0.4095 * (normalized) été
+ +      -0.325  * (normalized) mon
+ +       0.2538 * (normalized) se
+ +      -0.8162 * (normalized) n’a
+ +       0.0159 * (normalized) je
+ +       0.1008 * (normalized) a
+ +       0.5442 * (normalized) jeunes
+ +      -0.0864 * (normalized) La
+ +       0.3367 * (normalized) qu’il
+ +       0.0018 * (normalized) plus
+ +       0.0878 * (normalized) ses
+ +      -0.6246 * (normalized) n’est
+ +       0.2258 * (normalized) un
+ +       0.1904 * (normalized) ou
+ +       0.0016 * (normalized) le
+ +       0.0016 * (normalized) lui
+ +       0.3085 * (normalized) bien
+ +       0.0375 * (normalized) pas
+ +       0.0225 * (normalized) sur
+ +       0.2146 * (normalized) point
+ +       0.1232 * (normalized) comme
+ +      -0.0203 * (normalized) C’est
+ +       0.2991 * (normalized) Je
+ +      -0.0888 * (normalized) au
+ +       0.3746 * (normalized) vie
+ +       0.1994 * (normalized) d’une
+ +      -0.2244 * (normalized) Nous
+ +       0.3438 * (normalized) sans
+ +       0.1155 * (normalized) jour
+ +      -0.1154 * (normalized) sera
+ +       0.0772 * (normalized) autres
+ +       0.0437 * (normalized) même
+ +       0.5101 * (normalized) nos
+ +       0.2392 * (normalized) faire
+ +       0.5198 * (normalized) notre
+ +       0.0012 * (normalized) 5
+ +       0.9992
+
+Number of kernel evaluations: 104134916 (59.702% cached)
+
+Classifier for classes: CD, MA
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -2.0152 * (normalized) territoire
+ +       0.0261 * (normalized) marché
+ +      -1.4945 * (normalized) Côte
+ +      -0.4945 * (normalized) d’Ivoire
+ +      -1.0915 * (normalized) Wonder
+ +      -1.0915 * (normalized) Woman
+ +      -0.0366 * (normalized) de
+ +       0.1494 * (normalized) Sénégal
+ +       0.0942 * (normalized) tu
+ +      -2.056  * (normalized) Tshisekedi
+ +       0.0956 * (normalized) d
+ +       2.1276 * (normalized) Maroc
+ +       0.008  * (normalized) vous
+ +      -1.9008 * (normalized) 1984
+ +      -0.1075 * (normalized) l
+ +      -2.1767 * (normalized) Mobutu
+ +      -2.0077 * (normalized) poids
+ +      -2.1667 * (normalized) Kabund
+ +       1      * (normalized) BTP
+ +      -0.0268 * (normalized) la
+ +      -0.0028 * (normalized) et
+ +      -1.8258 * (normalized) Walungu
+ +      -0.023  * (normalized) des
+ +      -0.2469 * (normalized) joueurs
+ +       0.1915 * (normalized) –
+ +      -2.2772 * (normalized) Kinshasa
+ +       0.1206 * (normalized) n
+ +      -0.4374 * (normalized) j
+ +      -2.2045 * (normalized) confinement
+ +      -2.3009 * (normalized) Congo
+ +      -0.2717 * (normalized) Félix
+ +      -1.0129 * (normalized) film
+ +      -0.2477 * (normalized) complète
+ +       0.1608 * (normalized) ils
+ +      -0.2069 * (normalized) qu
+ +      -0.0142 * (normalized) du
+ +      -1.6811 * (normalized) match
+ +      -1.7659 * (normalized) santé
+ +       0.1415 * (normalized) coach
+ +      -0.0353 * (normalized) votre
+ +      -0.8758 * (normalized) pays
+ +      -1.8858 * (normalized) pouvoirs
+ +      -1.8827 * (normalized) perte
+ +      -0.0557 * (normalized) s
+ +       0.173  * (normalized) rencontre
+ +      -0.0548 * (normalized) dans
+ +       0.1001 * (normalized) critique
+ +       0.031  * (normalized) les
+ +       0.0336 * (normalized) site
+ +      -1.7371 * (normalized) population
+ +       0.9718 * (normalized) club
+ +       0.0805 * (normalized) qui
+ +      -0.3029 * (normalized) mondial
+ +       0.3417 * (normalized) femmes
+ +      -0.1105 * (normalized) équipe
+ +      -1.7275 * (normalized) secteur
+ +      -1.6254 * (normalized) c
+ +       0.0315 * (normalized) pour
+ +       0.126  * (normalized) ne
+ +       0.6297 * (normalized) homme
+ +       0.0961 * (normalized) plaint
+ +       0.0278 * (normalized) à
+ +      -1.8015 * (normalized) produits
+ +       0.0429 * (normalized) que
+ +       0.0658 * (normalized) ces
+ +       0.0448 * (normalized) il
+ +       0.1447 * (normalized) avait
+ +       0.0586 * (normalized) Il
+ +       0.1642 * (normalized) nous
+ +      -1.6582 * (normalized) -
+ +       0.0041 * (normalized) rapport
+ +      -1.7656 * (normalized) 2021
+ +      -0.1888 * (normalized) sont
+ +      -1.0101 * (normalized) «
+ +       0.9871 * (normalized) plaindre
+ +       0.1904 * (normalized) c’est
+ +       0.1745 * (normalized) face
+ +       0.0208 * (normalized) en
+ +      -0.014  * (normalized) Le
+ +       0.1219 * (normalized) leur
+ +       0.407  * (normalized) femme
+ +      -0.0725 * (normalized) concentré
+ +      -0.1131 * (normalized) est
+ +       0.2817 * (normalized) enfants
+ +       0.1387 * (normalized) me
+ +       0.0322 * (normalized) »
+ +      -1.72   * (normalized) pouvoir
+ +      -0.0409 * (normalized) ont
+ +      -0.0265 * (normalized) été
+ +       0.1807 * (normalized) mon
+ +       0.0835 * (normalized) se
+ +       0.0901 * (normalized) n’a
+ +       0.0756 * (normalized) je
+ +       0.0897 * (normalized) a
+ +       0.2702 * (normalized) jeunes
+ +       0.0075 * (normalized) La
+ +       0.1259 * (normalized) qu’il
+ +       0.0265 * (normalized) plus
+ +       0.1443 * (normalized) ses
+ +       0.1859 * (normalized) n’est
+ +       0.0964 * (normalized) un
+ +       0.1629 * (normalized) ou
+ +       0.0047 * (normalized) le
+ +       0.1131 * (normalized) lui
+ +       0.1999 * (normalized) bien
+ +      -0.0227 * (normalized) pas
+ +       0.0739 * (normalized) sur
+ +       0.1314 * (normalized) point
+ +       0.1038 * (normalized) comme
+ +       0.0926 * (normalized) C’est
+ +       0.1994 * (normalized) Je
+ +      -0.132  * (normalized) au
+ +       0.2676 * (normalized) vie
+ +       0.1906 * (normalized) d’une
+ +      -0.0921 * (normalized) Nous
+ +       0.1101 * (normalized) sans
+ +       0.0541 * (normalized) jour
+ +       0.0959 * (normalized) sera
+ +       0.0509 * (normalized) autres
+ +       0.1296 * (normalized) même
+ +       0.1105 * (normalized) nos
+ +       0.0387 * (normalized) faire
+ +       0.2213 * (normalized) notre
+ +       0.0766 * (normalized) 5
+ +       0.8007
+
+Number of kernel evaluations: 93833352 (45.587% cached)
+
+Classifier for classes: CD, SN
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -2.4379 * (normalized) territoire
+ +       0.1577 * (normalized) marché
+ +      -0.9893 * (normalized) Côte
+ +       0.0107 * (normalized) d’Ivoire
+ +      -1.0159 * (normalized) Wonder
+ +      -1.0159 * (normalized) Woman
+ +       0.2802 * (normalized) de
+ +       1.9486 * (normalized) Sénégal
+ +       0.4905 * (normalized) Concentré
+ +      -1      * (normalized) tu
+ +       1.9777 * (normalized) Dakar
+ +      -2.175  * (normalized) Tshisekedi
+ +      -0.2767 * (normalized) d
+ +       1      * (normalized) Sonko
+ +       0.4402 * (normalized) Maroc
+ +       0.4764 * (normalized) vous
+ +      -1.0159 * (normalized) 1984
+ +       1      * (normalized) Ousmane
+ +      -0.2666 * (normalized) l
+ +      -2.5556 * (normalized) Mobutu
+ +      -2.3293 * (normalized) poids
+ +      -2.732  * (normalized) Kabund
+ +      -0.0771 * (normalized) la
+ +      -0.1886 * (normalized) et
+ +      -0.6297 * (normalized) Walungu
+ +      -0.0269 * (normalized) des
+ +      -0.8817 * (normalized) joueurs
+ +       1.2752 * (normalized) –
+ +      -2.5772 * (normalized) Kinshasa
+ +       0.6796 * (normalized) n
+ +      -0.4698 * (normalized) j
+ +      -2.3296 * (normalized) confinement
+ +      -2.9211 * (normalized) Congo
+ +      -0.7285 * (normalized) Félix
+ +      -1.8978 * (normalized) film
+ +       1      * (normalized) complète
+ +      -0.2497 * (normalized) ils
+ +       0.0442 * (normalized) qu
+ +       0.0516 * (normalized) du
+ +      -0.8623 * (normalized) match
+ +      -0.4364 * (normalized) santé
+ +       1.2246 * (normalized) votre
+ +      -0.4254 * (normalized) pays
+ +      -2      * (normalized) pouvoirs
+ +      -1.1884 * (normalized) perte
+ +      -0.5646 * (normalized) s
+ +       0      * (normalized) rencontre
+ +      -0.0963 * (normalized) dans
+ +       0.7255 * (normalized) critique
+ +       0.2763 * (normalized) les
+ +       0.259  * (normalized) site
+ +      -1      * (normalized) population
+ +       0.1107 * (normalized) club
+ +       0.0841 * (normalized) qui
+ +      -0.0131 * (normalized) mondial
+ +       1.5148 * (normalized) femmes
+ +      -0.6871 * (normalized) équipe
+ +      -0.5172 * (normalized) secteur
+ +      -0.8085 * (normalized) c
+ +       0.2433 * (normalized) pour
+ +       0.8003 * (normalized) ne
+ +       0.1315 * (normalized) homme
+ +       0.191  * (normalized) plaint
+ +       0.2465 * (normalized) à
+ +      -0.9735 * (normalized) produits
+ +       0.0009 * (normalized) plaints
+ +       0.2805 * (normalized) que
+ +       0.5138 * (normalized) ces
+ +       0.1213 * (normalized) il
+ +       0.9845 * (normalized) avait
+ +      -0.0479 * (normalized) Il
+ +       0.5018 * (normalized) nous
+ +      -0.1894 * (normalized) -
+ +      -0      * (normalized) rapport
+ +       0.9847 * (normalized) 2021
+ +      -0.1926 * (normalized) sont
+ +      -0.6392 * (normalized) «
+ +       0.5439 * (normalized) plaindre
+ +       1.2402 * (normalized) c’est
+ +       0.0179 * (normalized) face
+ +      -0.1087 * (normalized) en
+ +      -0.246  * (normalized) Le
+ +       0.5729 * (normalized) leur
+ +      -1      * (normalized) femme
+ +      -0.3863 * (normalized) concentré
+ +      -0.2239 * (normalized) est
+ +      -0.1793 * (normalized) enfants
+ +       0.965  * (normalized) me
+ +       0.1979 * (normalized) »
+ +       0.0163 * (normalized) pouvoir
+ +       0.6352 * (normalized) ont
+ +      -0.0869 * (normalized) été
+ +       0.8789 * (normalized) mon
+ +       0.5216 * (normalized) se
+ +       0.3722 * (normalized) n’a
+ +       0.6327 * (normalized) je
+ +       0.6611 * (normalized) a
+ +      -0.3877 * (normalized) jeunes
+ +      -0.1895 * (normalized) La
+ +       0.5546 * (normalized) qu’il
+ +       0.203  * (normalized) plus
+ +       0.3375 * (normalized) ses
+ +       0.0982 * (normalized) n’est
+ +       0.1916 * (normalized) un
+ +       0.0627 * (normalized) ou
+ +       0.0119 * (normalized) le
+ +       0.468  * (normalized) lui
+ +       0.8831 * (normalized) bien
+ +      -0.0416 * (normalized) pas
+ +       0.2784 * (normalized) sur
+ +       1      * (normalized) point
+ +       0.2735 * (normalized) comme
+ +       1.1538 * (normalized) C’est
+ +       1.2564 * (normalized) Je
+ +      -0.0403 * (normalized) au
+ +       0.4836 * (normalized) vie
+ +       0.6328 * (normalized) d’une
+ +       1.1386 * (normalized) Nous
+ +       0.4621 * (normalized) sans
+ +       1.445  * (normalized) jour
+ +       1.0524 * (normalized) sera
+ +       0.2837 * (normalized) autres
+ +       0.706  * (normalized) même
+ +       1.2367 * (normalized) nos
+ +       0.3884 * (normalized) faire
+ +       0.8567 * (normalized) notre
+ +      -0.1891 * (normalized) 5
+ -       0.8107
+
+Number of kernel evaluations: 83260592 (43.078% cached)
+
+Classifier for classes: CI, DZ
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -1.2694 * (normalized) territoire
+ +      -1.7771 * (normalized) marché
+ +      -1.0961 * (normalized) Côte
+ +      -0.9167 * (normalized) d’Ivoire
+ +      -0.014  * (normalized) de
+ +      -1.0764 * (normalized) Sénégal
+ +      -1.8495 * (normalized) Concentré
+ +      -1.8825 * (normalized) tu
+ +      -1.2542 * (normalized) Dakar
+ +      -1.5284 * (normalized) d
+ +       1.5489 * (normalized) Maroc
+ +      -1.7593 * (normalized) vous
+ +      -0.8447 * (normalized) 1984
+ +      -1      * (normalized) Ousmane
+ +      -0.566  * (normalized) l
+ +       0.2885 * (normalized) poids
+ +      -2      * (normalized) BTP
+ +       0.0351 * (normalized) la
+ +      -0.0118 * (normalized) et
+ +      -0.1943 * (normalized) des
+ +       0.0217 * (normalized) Année
+ +      -1.8055 * (normalized) Lait
+ +       0.7066 * (normalized) joueurs
+ +      -1.7709 * (normalized) –
+ +      -1      * (normalized) Kinshasa
+ +      -0.0291 * (normalized) n
+ +      -0.0343 * (normalized) j
+ +      -2.5581 * (normalized) Astrid
+ +       1      * (normalized) confinement
+ +      -1.4491 * (normalized) Congo
+ +      -1      * (normalized) Félix
+ +       0.6106 * (normalized) film
+ +      -1      * (normalized) complète
+ +       0.2679 * (normalized) ils
+ +      -0.9448 * (normalized) qu
+ +      -0.0789 * (normalized) du
+ +      -1.9718 * (normalized) d’intérieur
+ +       0.6709 * (normalized) match
+ +      -1.2811 * (normalized) santé
+ +       1.2605 * (normalized) coach
+ +      -1.8558 * (normalized) votre
+ +      -1.3787 * (normalized) pays
+ +       0.3158 * (normalized) pouvoirs
+ +      -1.5199 * (normalized) perte
+ +      -0.311  * (normalized) s
+ +       0.7557 * (normalized) rencontre
+ +       0.0227 * (normalized) dans
+ +       0.4675 * (normalized) critique
+ +      -0.0032 * (normalized) les
+ +      -1.2777 * (normalized) site
+ +       0.3825 * (normalized) population
+ +       0.5078 * (normalized) club
+ +       0.0351 * (normalized) qui
+ +      -1.4672 * (normalized) mondial
+ +      -0.6638 * (normalized) femmes
+ +       0.8002 * (normalized) équipe
+ +      -1.9003 * (normalized) secteur
+ +      -0.2103 * (normalized) c
+ +      -0.2037 * (normalized) pour
+ +      -0.0329 * (normalized) ne
+ +      -1.1942 * (normalized) homme
+ +       0.2063 * (normalized) plaint
+ +      -0.1224 * (normalized) à
+ +      -1.0924 * (normalized) produits
+ +      -0.0017 * (normalized) que
+ +      -0.1819 * (normalized) ces
+ +      -0.1139 * (normalized) il
+ +      -1.452  * (normalized) avait
+ +      -0.496  * (normalized) Il
+ +       0.2222 * (normalized) nous
+ +       0.7039 * (normalized) -
+ +      -1.259  * (normalized) rapport
+ +      -1      * (normalized) 2021
+ +      -0.7237 * (normalized) sont
+ +       0.092  * (normalized) «
+ +      -0      * (normalized) plaindre
+ +      -0.3951 * (normalized) c’est
+ +       0.3267 * (normalized) face
+ +      -0.0134 * (normalized) en
+ +       0.0015 * (normalized) Le
+ +       0.2804 * (normalized) leur
+ +      -0.4371 * (normalized) femme
+ +      -0      * (normalized) concentré
+ +      -0.0063 * (normalized) est
+ +       1.0759 * (normalized) enfants
+ +      -1.1661 * (normalized) me
+ +       0.0219 * (normalized) »
+ +       0.3363 * (normalized) pouvoir
+ +       0.1454 * (normalized) ont
+ +      -0.1976 * (normalized) été
+ +       0.0718 * (normalized) mon
+ +       0.0366 * (normalized) se
+ +       0.2992 * (normalized) n’a
+ +      -0.7979 * (normalized) je
+ +      -0.1351 * (normalized) a
+ +      -0.408  * (normalized) jeunes
+ +      -0.1286 * (normalized) La
+ +       0.0934 * (normalized) qu’il
+ +      -0.5776 * (normalized) plus
+ +       0.0515 * (normalized) ses
+ +       0.136  * (normalized) n’est
+ +      -0.0967 * (normalized) un
+ +      -0.0057 * (normalized) ou
+ +      -0.0091 * (normalized) le
+ +       0.2219 * (normalized) lui
+ +       0.1388 * (normalized) bien
+ +      -0.0892 * (normalized) pas
+ +      -0.2177 * (normalized) sur
+ +       0.3147 * (normalized) point
+ +       0.0352 * (normalized) comme
+ +      -1.0743 * (normalized) C’est
+ +      -0.4416 * (normalized) Je
+ +      -0.0165 * (normalized) au
+ +      -0.1222 * (normalized) vie
+ +      -0.0236 * (normalized) d’une
+ +       0.0284 * (normalized) Nous
+ +       0.1208 * (normalized) sans
+ +      -0.2218 * (normalized) jour
+ +      -0.0656 * (normalized) sera
+ +      -0.1887 * (normalized) autres
+ +       0.0884 * (normalized) même
+ +      -0.7534 * (normalized) nos
+ +       0.0908 * (normalized) faire
+ +      -0.5849 * (normalized) notre
+ +      -1.1283 * (normalized) 5
+ +       0.9783
+
+Number of kernel evaluations: 107039951 (44.724% cached)
+
+Classifier for classes: CI, FR
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.4243 * (normalized) territoire
+ +      -1.7555 * (normalized) marché
+ +      -2.7531 * (normalized) Côte
+ +      -0      * (normalized) d’Ivoire
+ +      -0.4085 * (normalized) de
+ +      -0      * (normalized) Sénégal
+ +      -1.925  * (normalized) Concentré
+ +      -0.0655 * (normalized) tu
+ +      -1.1108 * (normalized) Dakar
+ +       0.4339 * (normalized) d
+ +      -0.9671 * (normalized) Maroc
+ +      -0.2694 * (normalized) vous
+ +      -0.2332 * (normalized) 1984
+ +      -0.222  * (normalized) Ousmane
+ +       0.8414 * (normalized) l
+ +       0.8537 * (normalized) poids
+ +      -1.9999 * (normalized) BTP
+ +      -0.172  * (normalized) la
+ +      -0.2573 * (normalized) et
+ +      -0.5319 * (normalized) des
+ +      -1.9997 * (normalized) Année
+ +      -1.4609 * (normalized) Lait
+ +       0.2325 * (normalized) joueurs
+ +      -1.0518 * (normalized) –
+ +      -1      * (normalized) Kinshasa
+ +       1.1387 * (normalized) n
+ +       1      * (normalized) j
+ +      -2.2254 * (normalized) Astrid
+ +      -0.8482 * (normalized) Congo
+ +       2      * (normalized) Félix
+ +       2      * (normalized) film
+ +       0.3746 * (normalized) complète
+ +       0.3897 * (normalized) ils
+ +       0.6182 * (normalized) qu
+ +      -0.321  * (normalized) du
+ +      -2.4247 * (normalized) d’intérieur
+ +      -0.4132 * (normalized) match
+ +       0.0127 * (normalized) santé
+ +      -0.8303 * (normalized) coach
+ +       0.4201 * (normalized) votre
+ +      -1.2164 * (normalized) pays
+ +      -1      * (normalized) pouvoirs
+ +      -0.1329 * (normalized) perte
+ +       0.6715 * (normalized) s
+ +       0.0157 * (normalized) rencontre
+ +      -0.0585 * (normalized) dans
+ +       0.6253 * (normalized) critique
+ +      -0.2236 * (normalized) les
+ +       0.2367 * (normalized) site
+ +      -0.7307 * (normalized) population
+ +      -1.5609 * (normalized) club
+ +      -0.0903 * (normalized) qui
+ +      -0.4642 * (normalized) mondial
+ +       0.3293 * (normalized) femmes
+ +      -1      * (normalized) équipe
+ +      -1.417  * (normalized) secteur
+ +       0.9218 * (normalized) c
+ +      -0.4433 * (normalized) pour
+ +      -0.1625 * (normalized) ne
+ +       0.8727 * (normalized) homme
+ +       0.6812 * (normalized) plaint
+ +      -0.364  * (normalized) à
+ +      -0.3848 * (normalized) produits
+ +       0.761  * (normalized) plaints
+ +      -0.1326 * (normalized) que
+ +      -0.1724 * (normalized) ces
+ +       0.1874 * (normalized) il
+ +      -0.6864 * (normalized) avait
+ +       0.1563 * (normalized) Il
+ +       0.425  * (normalized) nous
+ +       0.686  * (normalized) -
+ +      -1.3605 * (normalized) rapport
+ +      -0      * (normalized) 2021
+ +      -0.1093 * (normalized) sont
+ +      -0.1058 * (normalized) «
+ +       1      * (normalized) habité
+ +       0.6891 * (normalized) plaindre
+ +      -1.1085 * (normalized) c’est
+ +      -0.6553 * (normalized) face
+ +      -0.0989 * (normalized) en
+ +      -0.0001 * (normalized) Le
+ +       0.4536 * (normalized) leur
+ +       0.0098 * (normalized) femme
+ +       0.5919 * (normalized) concentré
+ +      -0.0593 * (normalized) est
+ +       1.1473 * (normalized) enfants
+ +      -0.3212 * (normalized) me
+ +       0.0006 * (normalized) »
+ +       0.4573 * (normalized) pouvoir
+ +       0.049  * (normalized) ont
+ +      -0.5818 * (normalized) été
+ +      -1.142  * (normalized) mon
+ +       0.3214 * (normalized) se
+ +      -1.5356 * (normalized) n’a
+ +      -0.6667 * (normalized) je
+ +      -0.2512 * (normalized) a
+ +       0.2302 * (normalized) jeunes
+ +       0.0123 * (normalized) La
+ +       0.4694 * (normalized) qu’il
+ +       0.1367 * (normalized) plus
+ +       0.291  * (normalized) ses
+ +      -1.163  * (normalized) n’est
+ +       0.2584 * (normalized) un
+ +       0.1498 * (normalized) ou
+ +       0.0001 * (normalized) le
+ +       0.1455 * (normalized) lui
+ +       0.4296 * (normalized) bien
+ +       0.2535 * (normalized) pas
+ +      -0.0899 * (normalized) sur
+ +      -0.2186 * (normalized) point
+ +       0.2993 * (normalized) comme
+ +      -0.936  * (normalized) C’est
+ +      -0.2641 * (normalized) Je
+ +       0.0013 * (normalized) au
+ +       0.1029 * (normalized) vie
+ +      -0.1394 * (normalized) d’une
+ +       0.105  * (normalized) Nous
+ +       0.6108 * (normalized) sans
+ +       0.3646 * (normalized) jour
+ +      -1.3512 * (normalized) sera
+ +       0.5643 * (normalized) autres
+ +       0.2877 * (normalized) même
+ +      -0.2335 * (normalized) nos
+ +       0.5304 * (normalized) faire
+ +      -0.0046 * (normalized) notre
+ +       0.0006 * (normalized) 5
+ +       0.9995
+
+Number of kernel evaluations: 124942141 (53.051% cached)
+
+Classifier for classes: CI, MA
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0      * (normalized) territoire
+ +      -1.2733 * (normalized) marché
+ +      -1.3166 * (normalized) Côte
+ +      -1.3166 * (normalized) d’Ivoire
+ +      -0.0963 * (normalized) de
+ +       0.5915 * (normalized) Sénégal
+ +      -1.2219 * (normalized) Concentré
+ +      -1.0146 * (normalized) tu
+ +       0      * (normalized) Dakar
+ +      -0.6266 * (normalized) d
+ +       2.0212 * (normalized) Maroc
+ +      -0.8101 * (normalized) vous
+ +      -1.5619 * (normalized) Ousmane
+ +      -0.1793 * (normalized) l
+ +       0.4218 * (normalized) poids
+ +      -0.6737 * (normalized) BTP
+ +       0.1717 * (normalized) la
+ +       0.2596 * (normalized) et
+ +      -0.1308 * (normalized) des
+ +      -0.674  * (normalized) Année
+ +      -1.1368 * (normalized) Lait
+ +      -1.698  * (normalized) joueurs
+ +      -0.8368 * (normalized) –
+ +      -0.7654 * (normalized) Kinshasa
+ +       0.0217 * (normalized) n
+ +      -0      * (normalized) j
+ +      -2      * (normalized) Astrid
+ +      -1.3938 * (normalized) Congo
+ +      -0.2643 * (normalized) Félix
+ +       0.7353 * (normalized) film
+ +      -1      * (normalized) complète
+ +       0.4989 * (normalized) ils
+ +      -0.4107 * (normalized) qu
+ +      -0.2727 * (normalized) du
+ +      -2.1259 * (normalized) d’intérieur
+ +      -0.3114 * (normalized) match
+ +       0.4145 * (normalized) santé
+ +      -0.3362 * (normalized) coach
+ +      -0.7409 * (normalized) votre
+ +      -0.2703 * (normalized) pays
+ +      -0.5232 * (normalized) pouvoirs
+ +      -0.5164 * (normalized) perte
+ +       0.3665 * (normalized) s
+ +       0.0561 * (normalized) rencontre
+ +       0.0601 * (normalized) dans
+ +      -0.3125 * (normalized) critique
+ +      -0.0615 * (normalized) les
+ +       0.5998 * (normalized) site
+ +       0.7138 * (normalized) population
+ +      -0.6358 * (normalized) club
+ +       0.3049 * (normalized) qui
+ +      -0.401  * (normalized) mondial
+ +       1.3162 * (normalized) femmes
+ +      -0.5237 * (normalized) équipe
+ +      -0.4309 * (normalized) secteur
+ +      -0.5036 * (normalized) c
+ +      -0.1687 * (normalized) pour
+ +       0.1038 * (normalized) ne
+ +       1.4903 * (normalized) homme
+ +       1.0087 * (normalized) plaint
+ +      -0.1743 * (normalized) à
+ +      -0.6193 * (normalized) produits
+ +       0.0534 * (normalized) que
+ +       0.7    * (normalized) ces
+ +       0.4243 * (normalized) il
+ +      -0.3019 * (normalized) avait
+ +       0.9508 * (normalized) Il
+ +       0.783  * (normalized) nous
+ +       0.0776 * (normalized) -
+ +      -0.3063 * (normalized) rapport
+ +      -0.5787 * (normalized) 2021
+ +      -0.0689 * (normalized) sont
+ +      -0.5149 * (normalized) «
+ +       0.5801 * (normalized) plaindre
+ +      -0.3974 * (normalized) c’est
+ +      -0.1611 * (normalized) face
+ +       0.2233 * (normalized) en
+ +       0.1298 * (normalized) Le
+ +       0.6254 * (normalized) leur
+ +       1.1021 * (normalized) femme
+ +      -0.2688 * (normalized) concentré
+ +      -0.0812 * (normalized) est
+ +       1.3645 * (normalized) enfants
+ +      -0.2895 * (normalized) me
+ +       0.4441 * (normalized) »
+ +       0.1509 * (normalized) pouvoir
+ +       0.2417 * (normalized) ont
+ +      -0.377  * (normalized) été
+ +       0.3698 * (normalized) mon
+ +       0.2599 * (normalized) se
+ +       0.261  * (normalized) n’a
+ +      -0.6697 * (normalized) je
+ +      -0.2257 * (normalized) a
+ +       0.9561 * (normalized) jeunes
+ +       0.5485 * (normalized) La
+ +       0.0662 * (normalized) qu’il
+ +       0.1121 * (normalized) plus
+ +       0.7316 * (normalized) ses
+ +       0.8248 * (normalized) n’est
+ +       0.1908 * (normalized) un
+ +       0.6041 * (normalized) ou
+ +      -0.0955 * (normalized) le
+ +       0.7906 * (normalized) lui
+ +       0.5121 * (normalized) bien
+ +       0.2136 * (normalized) pas
+ +       0.0222 * (normalized) sur
+ +      -0.6951 * (normalized) point
+ +       0.6248 * (normalized) comme
+ +      -0.054  * (normalized) C’est
+ +      -0.2383 * (normalized) Je
+ +      -0.3393 * (normalized) au
+ +       0.7399 * (normalized) vie
+ +       0.5558 * (normalized) d’une
+ +       0.362  * (normalized) Nous
+ +       0.6521 * (normalized) sans
+ +       0.4386 * (normalized) jour
+ +      -0.8433 * (normalized) sera
+ +       0.5325 * (normalized) autres
+ +       0.5907 * (normalized) même
+ +      -0.83   * (normalized) nos
+ +       0.35   * (normalized) faire
+ +      -0.0857 * (normalized) notre
+ +      -0.3693 * (normalized) 5
+ -       0.3264
+
+Number of kernel evaluations: 112817636 (34.313% cached)
+
+Classifier for classes: CI, SN
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.4568 * (normalized) territoire
+ +      -1.0155 * (normalized) marché
+ +      -1.9401 * (normalized) Côte
+ +      -1.7699 * (normalized) d’Ivoire
+ +       0.0272 * (normalized) de
+ +       2.0239 * (normalized) Sénégal
+ +      -0.1305 * (normalized) Concentré
+ +      -1.368  * (normalized) tu
+ +       2.0073 * (normalized) Dakar
+ +      -0.0998 * (normalized) d
+ +       1.492  * (normalized) Sonko
+ +      -1      * (normalized) Maroc
+ +      -0.1385 * (normalized) vous
+ +       0.492  * (normalized) Ousmane
+ +      -0.0355 * (normalized) l
+ +       1      * (normalized) poids
+ +      -0.9635 * (normalized) BTP
+ +       0.0112 * (normalized) la
+ +      -0.0016 * (normalized) et
+ +       0.0059 * (normalized) des
+ +      -1      * (normalized) Année
+ +      -1      * (normalized) Lait
+ +      -1.7703 * (normalized) joueurs
+ +      -0.2124 * (normalized) –
+ +      -0.3999 * (normalized) Kinshasa
+ +       0.1479 * (normalized) n
+ +       1.0072 * (normalized) j
+ +      -2.1504 * (normalized) Astrid
+ +       1      * (normalized) confinement
+ +      -0.3999 * (normalized) Congo
+ +       0      * (normalized) Félix
+ +      -0      * (normalized) complète
+ +      -0.1377 * (normalized) ils
+ +       0.6388 * (normalized) qu
+ +      -0.0061 * (normalized) du
+ +      -1.483  * (normalized) d’intérieur
+ +      -0.8809 * (normalized) match
+ +       1.7931 * (normalized) santé
+ +      -0.8943 * (normalized) coach
+ +       0.1376 * (normalized) votre
+ +       0.0243 * (normalized) pays
+ +      -0.8006 * (normalized) pouvoirs
+ +      -0.0526 * (normalized) perte
+ +      -0.0652 * (normalized) s
+ +      -1.0638 * (normalized) rencontre
+ +       0.0331 * (normalized) dans
+ +      -0      * (normalized) critique
+ +       0.0132 * (normalized) les
+ +       0.0889 * (normalized) site
+ +       1      * (normalized) population
+ +      -1.4034 * (normalized) club
+ +       0.0818 * (normalized) qui
+ +      -0.2006 * (normalized) mondial
+ +       1.1496 * (normalized) femmes
+ +      -0.6419 * (normalized) équipe
+ +      -0.0911 * (normalized) secteur
+ +      -0.4968 * (normalized) c
+ +       0.0277 * (normalized) pour
+ +       0.9774 * (normalized) ne
+ +       1.2553 * (normalized) homme
+ +       1      * (normalized) plaint
+ +       0.0073 * (normalized) à
+ +      -0.2757 * (normalized) produits
+ +       1      * (normalized) plaints
+ +       0.1043 * (normalized) que
+ +       1.1041 * (normalized) ces
+ +       0.0964 * (normalized) il
+ +       0.6409 * (normalized) avait
+ +       0.5675 * (normalized) Il
+ +       0.2661 * (normalized) nous
+ +       0.0013 * (normalized) -
+ +      -0.0209 * (normalized) rapport
+ +       1.1758 * (normalized) 2021
+ +      -0.0226 * (normalized) sont
+ +       0.0177 * (normalized) «
+ +      -0.109  * (normalized) plaindre
+ +      -0.0187 * (normalized) c’est
+ +       0.004  * (normalized) face
+ +      -0.0004 * (normalized) en
+ +      -0.0136 * (normalized) Le
+ +       0.8446 * (normalized) leur
+ +      -0.8421 * (normalized) femme
+ +      -0.0011 * (normalized) concentré
+ +      -0.0078 * (normalized) est
+ +       0.0492 * (normalized) enfants
+ +      -0.0291 * (normalized) me
+ +       0.6718 * (normalized) »
+ +       1.3259 * (normalized) pouvoir
+ +       0.9776 * (normalized) ont
+ +      -0.0266 * (normalized) été
+ +      -0.0189 * (normalized) mon
+ +       0.2499 * (normalized) se
+ +      -0.1318 * (normalized) n’a
+ +      -0.1448 * (normalized) je
+ +       0.0065 * (normalized) a
+ +      -0.7445 * (normalized) jeunes
+ +      -0.0131 * (normalized) La
+ +       0.214  * (normalized) qu’il
+ +       0.0138 * (normalized) plus
+ +       0.8333 * (normalized) ses
+ +       0.0136 * (normalized) n’est
+ +      -0.0154 * (normalized) un
+ +       0.0156 * (normalized) ou
+ +      -0.0137 * (normalized) le
+ +       0.4861 * (normalized) lui
+ +       0.9389 * (normalized) bien
+ +      -0.0013 * (normalized) pas
+ +      -0.0127 * (normalized) sur
+ +       0.2172 * (normalized) point
+ +       0.8549 * (normalized) comme
+ +       0.7725 * (normalized) C’est
+ +      -0.0004 * (normalized) Je
+ +      -0.023  * (normalized) au
+ +      -0.0266 * (normalized) vie
+ +       0.0925 * (normalized) d’une
+ +       1.7668 * (normalized) Nous
+ +       0.812  * (normalized) sans
+ +       1.9542 * (normalized) jour
+ +       1.0229 * (normalized) sera
+ +       0.5021 * (normalized) autres
+ +       0.8631 * (normalized) même
+ +       0.7224 * (normalized) nos
+ +       0.5492 * (normalized) faire
+ +      -0.0581 * (normalized) notre
+ +      -0.0259 * (normalized) 5
+ -       0.9991
+
+Number of kernel evaluations: 100200158 (55.459% cached)
+
+Classifier for classes: DZ, FR
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.5225 * (normalized) territoire
+ +      -1      * (normalized) marché
+ +      -0      * (normalized) Côte
+ +      -1      * (normalized) d’Ivoire
+ +      -0.7314 * (normalized) de
+ +       0.947  * (normalized) Sénégal
+ +       0.516  * (normalized) Concentré
+ +       1.0974 * (normalized) tu
+ +       1.2415 * (normalized) d
+ +      -2      * (normalized) Maroc
+ +       0.889  * (normalized) vous
+ +       1.3787 * (normalized) l
+ +      -0.5279 * (normalized) poids
+ +      -0.335  * (normalized) la
+ +      -0.3075 * (normalized) et
+ +      -0.4492 * (normalized) des
+ +      -1.6019 * (normalized) Année
+ +      -1.4131 * (normalized) joueurs
+ +       0.0892 * (normalized) –
+ +       1.6799 * (normalized) n
+ +       1      * (normalized) j
+ +       1      * (normalized) Astrid
+ +      -1      * (normalized) confinement
+ +       1.4374 * (normalized) Félix
+ +       2.0061 * (normalized) film
+ +       0.6202 * (normalized) complète
+ +      -0.1704 * (normalized) ils
+ +       0.9574 * (normalized) qu
+ +      -0.0856 * (normalized) du
+ +      -1.4725 * (normalized) match
+ +       0.4565 * (normalized) santé
+ +      -1.4031 * (normalized) coach
+ +       1.6158 * (normalized) votre
+ +      -0.3143 * (normalized) pays
+ +      -1.4108 * (normalized) pouvoirs
+ +       0.7906 * (normalized) perte
+ +       1.5023 * (normalized) s
+ +      -0.937  * (normalized) rencontre
+ +      -0.146  * (normalized) dans
+ +       0.745  * (normalized) critique
+ +      -0.1783 * (normalized) les
+ +       1      * (normalized) site
+ +       0      * (normalized) population
+ +      -2.5806 * (normalized) club
+ +      -0.1414 * (normalized) qui
+ +       0.904  * (normalized) mondial
+ +       0.402  * (normalized) femmes
+ +      -1.6027 * (normalized) équipe
+ +      -0.5582 * (normalized) secteur
+ +       1.5189 * (normalized) c
+ +      -0.2102 * (normalized) pour
+ +      -0.0667 * (normalized) ne
+ +       1.3829 * (normalized) homme
+ +       0.9238 * (normalized) plaint
+ +      -0.2238 * (normalized) à
+ +       0.9667 * (normalized) produits
+ +       0.1375 * (normalized) plaints
+ +      -0.0831 * (normalized) que
+ +       0.0432 * (normalized) ces
+ +       0.3986 * (normalized) il
+ +       0.6644 * (normalized) avait
+ +       0.4638 * (normalized) Il
+ +      -0.1233 * (normalized) nous
+ +       0.2535 * (normalized) -
+ +      -1.247  * (normalized) rapport
+ +       0.4617 * (normalized) 2021
+ +       0.3992 * (normalized) sont
+ +      -0.6997 * (normalized) «
+ +       1      * (normalized) habité
+ +       0.9939 * (normalized) plaindre
+ +      -0.5203 * (normalized) c’est
+ +      -0.98   * (normalized) face
+ +      -0.1179 * (normalized) en
+ +      -0.0408 * (normalized) Le
+ +       0.464  * (normalized) leur
+ +      -0      * (normalized) femme
+ +       1.0372 * (normalized) concentré
+ +      -0.0253 * (normalized) est
+ +      -0.6737 * (normalized) enfants
+ +       0.4084 * (normalized) me
+ +       0.0431 * (normalized) »
+ +      -0.5669 * (normalized) pouvoir
+ +      -0.1054 * (normalized) ont
+ +      -0.4077 * (normalized) été
+ +      -0.7749 * (normalized) mon
+ +       0.2109 * (normalized) se
+ +      -1.0332 * (normalized) n’a
+ +      -0.3947 * (normalized) je
+ +      -0.1872 * (normalized) a
+ +       0.745  * (normalized) jeunes
+ +       0.3086 * (normalized) La
+ +       0.2073 * (normalized) qu’il
+ +       0.4641 * (normalized) plus
+ +       0.3977 * (normalized) ses
+ +      -1.2138 * (normalized) n’est
+ +       0.4369 * (normalized) un
+ +       0.1592 * (normalized) ou
+ +      -0.0081 * (normalized) le
+ +       0.2106 * (normalized) lui
+ +       0.2746 * (normalized) bien
+ +       0.1713 * (normalized) pas
+ +       0.1771 * (normalized) sur
+ +      -1.2196 * (normalized) point
+ +       0.3954 * (normalized) comme
+ +      -0.4599 * (normalized) C’est
+ +      -0.0699 * (normalized) Je
+ +      -0.0382 * (normalized) au
+ +       0.3468 * (normalized) vie
+ +      -0.0767 * (normalized) d’une
+ +      -0.5529 * (normalized) Nous
+ +       0.4236 * (normalized) sans
+ +       0.6221 * (normalized) jour
+ +      -0.7051 * (normalized) sera
+ +       0.9137 * (normalized) autres
+ +       0.3385 * (normalized) même
+ +       0.7258 * (normalized) nos
+ +       0.1468 * (normalized) faire
+ +       0.5984 * (normalized) notre
+ +       0.5758 * (normalized) 5
+ +       0.6018
+
+Number of kernel evaluations: 114545449 (38.605% cached)
+
+Classifier for classes: DZ, MA
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0.175  * (normalized) territoire
+ +      -0.1889 * (normalized) marché
+ +      -2      * (normalized) Côte
+ +      -0.0018 * (normalized) de
+ +       1.8319 * (normalized) Sénégal
+ +       1.1199 * (normalized) tu
+ +       1      * (normalized) Dakar
+ +       0.3009 * (normalized) d
+ +       1.9006 * (normalized) Maroc
+ +       0.7886 * (normalized) vous
+ +       1      * (normalized) 1984
+ +       0.2469 * (normalized) l
+ +      -0.3563 * (normalized) poids
+ +       0.1675 * (normalized) BTP
+ +      -0.0003 * (normalized) la
+ +       0.1195 * (normalized) et
+ +       0.1215 * (normalized) des
+ +      -0.0046 * (normalized) Année
+ +      -1.9711 * (normalized) joueurs
+ +      -0.0042 * (normalized) –
+ +       0.4831 * (normalized) n
+ +      -1      * (normalized) confinement
+ +       0.6029 * (normalized) film
+ +      -1      * (normalized) complète
+ +      -0.2526 * (normalized) ils
+ +       0.0033 * (normalized) qu
+ +      -0.0051 * (normalized) du
+ +      -1.3025 * (normalized) match
+ +       1.2716 * (normalized) santé
+ +      -1.9113 * (normalized) coach
+ +       1      * (normalized) votre
+ +       1.2177 * (normalized) pays
+ +      -0.5316 * (normalized) pouvoirs
+ +      -0.203  * (normalized) perte
+ +       0.7607 * (normalized) s
+ +      -1.2105 * (normalized) rencontre
+ +      -0.0206 * (normalized) dans
+ +      -0.3048 * (normalized) critique
+ +      -0.0032 * (normalized) les
+ +       1.8535 * (normalized) site
+ +       0.2045 * (normalized) population
+ +      -1.4005 * (normalized) club
+ +       0.3116 * (normalized) qui
+ +       0.5086 * (normalized) mondial
+ +       1.8735 * (normalized) femmes
+ +      -1.5768 * (normalized) équipe
+ +       1.8404 * (normalized) secteur
+ +      -0.3583 * (normalized) c
+ +       0.0691 * (normalized) pour
+ +       0.4207 * (normalized) ne
+ +       1.9963 * (normalized) homme
+ +       0.772  * (normalized) plaint
+ +      -0      * (normalized) à
+ +      -0.1002 * (normalized) produits
+ +      -0.005  * (normalized) que
+ +       0.9979 * (normalized) ces
+ +       0.6127 * (normalized) il
+ +       1.0223 * (normalized) avait
+ +       1.4073 * (normalized) Il
+ +       0.0304 * (normalized) nous
+ +      -0.4773 * (normalized) -
+ +       0.172  * (normalized) rapport
+ +      -0.1175 * (normalized) 2021
+ +       0.5709 * (normalized) sont
+ +      -0.2809 * (normalized) «
+ +       0.4463 * (normalized) plaindre
+ +       0.0213 * (normalized) c’est
+ +      -0.42   * (normalized) face
+ +       0.067  * (normalized) en
+ +       0      * (normalized) Le
+ +       0.2741 * (normalized) leur
+ +       1.8102 * (normalized) femme
+ +      -0.115  * (normalized) concentré
+ +      -0.0033 * (normalized) est
+ +      -0.004  * (normalized) enfants
+ +       1.0157 * (normalized) me
+ +      -0.0052 * (normalized) »
+ +      -0.5644 * (normalized) pouvoir
+ +      -0.1132 * (normalized) ont
+ +      -0.0725 * (normalized) été
+ +      -0.0207 * (normalized) mon
+ +       0.0292 * (normalized) se
+ +      -0.238  * (normalized) n’a
+ +      -0.2118 * (normalized) je
+ +       0.0012 * (normalized) a
+ +       1.6044 * (normalized) jeunes
+ +       0.7318 * (normalized) La
+ +      -0.0047 * (normalized) qu’il
+ +       0.8093 * (normalized) plus
+ +       0.5847 * (normalized) ses
+ +       0.3581 * (normalized) n’est
+ +       0.2849 * (normalized) un
+ +       0.5185 * (normalized) ou
+ +      -0.0052 * (normalized) le
+ +       0.5692 * (normalized) lui
+ +      -0.0053 * (normalized) bien
+ +       0.1093 * (normalized) pas
+ +       0.2756 * (normalized) sur
+ +      -0.8036 * (normalized) point
+ +       0.5036 * (normalized) comme
+ +       0.805  * (normalized) C’est
+ +       0.4746 * (normalized) Je
+ +      -0.0696 * (normalized) au
+ +       1.1117 * (normalized) vie
+ +       0.8125 * (normalized) d’une
+ +       0.1503 * (normalized) Nous
+ +       0.2593 * (normalized) sans
+ +       1.0114 * (normalized) jour
+ +      -0.414  * (normalized) sera
+ +       1.1344 * (normalized) autres
+ +       0.4033 * (normalized) même
+ +      -0.051  * (normalized) nos
+ +      -0.1227 * (normalized) faire
+ +       0.8532 * (normalized) notre
+ +       0.462  * (normalized) 5
+ -       0.9969
+
+Number of kernel evaluations: 109450133 (46.379% cached)
+
+Classifier for classes: DZ, SN
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+         0      * (normalized) territoire
+ +      -0.384  * (normalized) marché
+ +      -1.2355 * (normalized) Côte
+ +      -0.417  * (normalized) d’Ivoire
+ +       0.0015 * (normalized) de
+ +       2.0156 * (normalized) Sénégal
+ +       1      * (normalized) Concentré
+ +      -0.1392 * (normalized) tu
+ +       2.0168 * (normalized) Dakar
+ +       0.0016 * (normalized) d
+ +       1.5427 * (normalized) Sonko
+ +      -1.657  * (normalized) Maroc
+ +       0.9829 * (normalized) vous
+ +       1      * (normalized) 1984
+ +       1      * (normalized) Ousmane
+ +       0.0039 * (normalized) l
+ +      -0.1428 * (normalized) poids
+ +      -0.0018 * (normalized) la
+ +      -0.0017 * (normalized) et
+ +       0.0304 * (normalized) des
+ +      -0      * (normalized) Année
+ +      -2.7415 * (normalized) joueurs
+ +       0.0023 * (normalized) –
+ +       0.917  * (normalized) n
+ +       1.1469 * (normalized) j
+ +      -0      * (normalized) confinement
+ +       1      * (normalized) Congo
+ +      -0.9648 * (normalized) film
+ +       0.5632 * (normalized) complète
+ +      -0.5649 * (normalized) ils
+ +       1.0688 * (normalized) qu
+ +       0.0002 * (normalized) du
+ +      -2.231  * (normalized) match
+ +       1.9828 * (normalized) santé
+ +      -1.9994 * (normalized) coach
+ +       1.9837 * (normalized) votre
+ +       1.4103 * (normalized) pays
+ +      -1      * (normalized) pouvoirs
+ +       0.1739 * (normalized) perte
+ +       0.015  * (normalized) s
+ +      -2.2009 * (normalized) rencontre
+ +       0.0012 * (normalized) dans
+ +      -0.1464 * (normalized) critique
+ +       0.0158 * (normalized) les
+ +       1.8928 * (normalized) site
+ +       0      * (normalized) population
+ +      -1.8572 * (normalized) club
+ +       0.1067 * (normalized) qui
+ +       1.4394 * (normalized) mondial
+ +       1.4887 * (normalized) femmes
+ +      -2.2589 * (normalized) équipe
+ +       1.9333 * (normalized) secteur
+ +      -0.2729 * (normalized) c
+ +       0.171  * (normalized) pour
+ +       0.9917 * (normalized) ne
+ +       1.8608 * (normalized) homme
+ +       0.0149 * (normalized) à
+ +      -0.0187 * (normalized) produits
+ +       1      * (normalized) plaints
+ +       0.0661 * (normalized) que
+ +       1.4163 * (normalized) ces
+ +       0.4543 * (normalized) il
+ +       1.5449 * (normalized) avait
+ +       0.9443 * (normalized) Il
+ +      -0.098  * (normalized) nous
+ +      -0.1615 * (normalized) -
+ +       0.0129 * (normalized) rapport
+ +       1.9958 * (normalized) 2021
+ +       0.0604 * (normalized) sont
+ +      -0.0368 * (normalized) «
+ +       0.1731 * (normalized) plaindre
+ +       0.0191 * (normalized) c’est
+ +      -0.5881 * (normalized) face
+ +       0.0002 * (normalized) en
+ +      -0.0421 * (normalized) Le
+ +       0.4289 * (normalized) leur
+ +      -0.0225 * (normalized) femme
+ +       0      * (normalized) concentré
+ +      -0.0155 * (normalized) est
+ +      -1.1576 * (normalized) enfants
+ +       1      * (normalized) me
+ +       0.0357 * (normalized) »
+ +       0.0343 * (normalized) pouvoir
+ +       0.262  * (normalized) ont
+ +      -0.0776 * (normalized) été
+ +      -0.0483 * (normalized) mon
+ +       0.102  * (normalized) se
+ +      -0.4716 * (normalized) n’a
+ +       0.0002 * (normalized) je
+ +       0.0824 * (normalized) a
+ +      -0.1598 * (normalized) jeunes
+ +       0.0009 * (normalized) La
+ +       0.2054 * (normalized) qu’il
+ +       0.7246 * (normalized) plus
+ +       0.4294 * (normalized) ses
+ +      -0.0594 * (normalized) n’est
+ +       0.001  * (normalized) un
+ +       0.0008 * (normalized) ou
+ +      -0.0151 * (normalized) le
+ +       0.1835 * (normalized) lui
+ +       0.3014 * (normalized) bien
+ +      -0.0304 * (normalized) pas
+ +       0.0449 * (normalized) sur
+ +      -0.1051 * (normalized) point
+ +       0.5414 * (normalized) comme
+ +       1.5129 * (normalized) C’est
+ +       0.0545 * (normalized) Je
+ +       0.0048 * (normalized) au
+ +       0.0003 * (normalized) vie
+ +       0.0374 * (normalized) d’une
+ +       1.3714 * (normalized) Nous
+ +       0.4472 * (normalized) sans
+ +       1.97   * (normalized) jour
+ +       1.039  * (normalized) sera
+ +       0.7682 * (normalized) autres
+ +       0.3142 * (normalized) même
+ +       1.0027 * (normalized) nos
+ +       0.1055 * (normalized) faire
+ +       0.3323 * (normalized) notre
+ +       0.0158 * (normalized) 5
+ -       1.0005
+
+Number of kernel evaluations: 100866111 (68.099% cached)
+
+Classifier for classes: FR, MA
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.2663 * (normalized) territoire
+ +       0.2444 * (normalized) marché
+ +      -0.7735 * (normalized) Côte
+ +       0.4084 * (normalized) de
+ +       0.5531 * (normalized) Sénégal
+ +      -0.2052 * (normalized) Concentré
+ +      -0.4782 * (normalized) tu
+ +       1      * (normalized) Dakar
+ +      -0.9904 * (normalized) d
+ +       2.1754 * (normalized) Maroc
+ +      -0.8357 * (normalized) vous
+ +       1      * (normalized) 1984
+ +      -0.9722 * (normalized) l
+ +      -0.1569 * (normalized) poids
+ +       0.1149 * (normalized) BTP
+ +       0.2967 * (normalized) la
+ +       0.508  * (normalized) et
+ +       0.3299 * (normalized) des
+ +      -1.6964 * (normalized) joueurs
+ +      -0.6017 * (normalized) –
+ +      -1.2603 * (normalized) n
+ +      -0.9841 * (normalized) j
+ +      -1      * (normalized) Astrid
+ +      -1.0329 * (normalized) Félix
+ +      -2      * (normalized) film
+ +      -1.1952 * (normalized) complète
+ +       0.0756 * (normalized) ils
+ +      -1.0344 * (normalized) qu
+ +       0.1571 * (normalized) du
+ +       0.1779 * (normalized) match
+ +       0.1494 * (normalized) santé
+ +       0.0912 * (normalized) coach
+ +      -1.118  * (normalized) votre
+ +       1.4007 * (normalized) pays
+ +       0.998  * (normalized) pouvoirs
+ +      -1.2925 * (normalized) perte
+ +      -1.0035 * (normalized) s
+ +       0.2135 * (normalized) rencontre
+ +       0.0088 * (normalized) dans
+ +      -1      * (normalized) critique
+ +       0.224  * (normalized) les
+ +       0.1895 * (normalized) site
+ +       1.1472 * (normalized) population
+ +       1.0893 * (normalized) club
+ +       0.3723 * (normalized) qui
+ +      -0.9195 * (normalized) mondial
+ +       1.411  * (normalized) femmes
+ +      -0.0337 * (normalized) équipe
+ +       1.1573 * (normalized) secteur
+ +      -1.6093 * (normalized) c
+ +       0.1998 * (normalized) pour
+ +       0.2038 * (normalized) ne
+ +       1.258  * (normalized) homme
+ +      -0.6597 * (normalized) plaint
+ +       0.1629 * (normalized) à
+ +      -1      * (normalized) produits
+ +      -1      * (normalized) plaints
+ +       0.1576 * (normalized) que
+ +       0.6614 * (normalized) ces
+ +       0.0383 * (normalized) il
+ +       0.3736 * (normalized) avait
+ +       0.6237 * (normalized) Il
+ +       0.3803 * (normalized) nous
+ +      -0.3354 * (normalized) -
+ +       1.0339 * (normalized) rapport
+ +       0.0006 * (normalized) 2021
+ +      -0.0713 * (normalized) sont
+ +      -0.255  * (normalized) «
+ +      -0.7972 * (normalized) habité
+ +      -0.458  * (normalized) plaindre
+ +       0.5469 * (normalized) c’est
+ +       0.4929 * (normalized) face
+ +       0.2044 * (normalized) en
+ +       0.0003 * (normalized) Le
+ +      -0.0764 * (normalized) leur
+ +       0.984  * (normalized) femme
+ +      -0.7054 * (normalized) concentré
+ +       0.0233 * (normalized) est
+ +       0.2575 * (normalized) enfants
+ +       0.5544 * (normalized) me
+ +       0.0072 * (normalized) »
+ +      -0.0003 * (normalized) pouvoir
+ +      -0.0519 * (normalized) ont
+ +       0.455  * (normalized) été
+ +       1.0943 * (normalized) mon
+ +      -0.2608 * (normalized) se
+ +       1.2803 * (normalized) n’a
+ +       0.2    * (normalized) je
+ +       0.0859 * (normalized) a
+ +       0.9703 * (normalized) jeunes
+ +       0.1193 * (normalized) La
+ +       0.0001 * (normalized) qu’il
+ +       0.0634 * (normalized) plus
+ +      -0.0007 * (normalized) ses
+ +       1.3059 * (normalized) n’est
+ +      -0.0981 * (normalized) un
+ +       0.2969 * (normalized) ou
+ +      -0.0012 * (normalized) le
+ +       0.4251 * (normalized) lui
+ +      -0.2971 * (normalized) bien
+ +      -0.0649 * (normalized) pas
+ +      -0.0011 * (normalized) sur
+ +      -0.3787 * (normalized) point
+ +       0.0747 * (normalized) comme
+ +       0.9235 * (normalized) C’est
+ +       0.4021 * (normalized) Je
+ +      -0.1755 * (normalized) au
+ +       0.6242 * (normalized) vie
+ +       0.5916 * (normalized) d’une
+ +       0.6483 * (normalized) Nous
+ +      -0.0954 * (normalized) sans
+ +      -0.1614 * (normalized) jour
+ +       0.6092 * (normalized) sera
+ +       0.1623 * (normalized) autres
+ +       0.3859 * (normalized) même
+ +      -0.5705 * (normalized) nos
+ +      -0.3262 * (normalized) faire
+ +       0.2801 * (normalized) notre
+ +      -0.0004 * (normalized) 5
+ -       0.9994
+
+Number of kernel evaluations: 123919343 (61.296% cached)
+
+Classifier for classes: FR, SN
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.5547 * (normalized) territoire
+ +       1      * (normalized) marché
+ +       1      * (normalized) d’Ivoire
+ +       0.4888 * (normalized) de
+ +       2      * (normalized) Sénégal
+ +       1      * (normalized) Concentré
+ +      -1.2796 * (normalized) tu
+ +       2.2758 * (normalized) Dakar
+ +      -0.9568 * (normalized) d
+ +       1.1577 * (normalized) Sonko
+ +       0.3037 * (normalized) Maroc
+ +      -0.6547 * (normalized) vous
+ +       0.8247 * (normalized) 1984
+ +       1      * (normalized) Ousmane
+ +      -1.0081 * (normalized) l
+ +      -0.1287 * (normalized) poids
+ +       0.142  * (normalized) la
+ +       0.1955 * (normalized) et
+ +       0.4664 * (normalized) des
+ +      -1.569  * (normalized) joueurs
+ +      -0      * (normalized) –
+ +      -0.7714 * (normalized) n
+ +      -0.3335 * (normalized) j
+ +      -0.9011 * (normalized) Astrid
+ +       1      * (normalized) confinement
+ +       1      * (normalized) Congo
+ +      -1      * (normalized) Félix
+ +      -2.2796 * (normalized) film
+ +      -1      * (normalized) complète
+ +      -0.5137 * (normalized) ils
+ +      -0.4115 * (normalized) qu
+ +       0.1732 * (normalized) du
+ +      -1.0212 * (normalized) match
+ +       1.2102 * (normalized) santé
+ +      -1      * (normalized) coach
+ +      -0.4123 * (normalized) votre
+ +       1.8259 * (normalized) pays
+ +       0.6127 * (normalized) pouvoirs
+ +      -0.6351 * (normalized) perte
+ +      -0.953  * (normalized) s
+ +      -0.5831 * (normalized) rencontre
+ +       0.0762 * (normalized) dans
+ +      -0.7565 * (normalized) critique
+ +       0.2276 * (normalized) les
+ +      -0.1733 * (normalized) site
+ +       1.1968 * (normalized) population
+ +       0.2084 * (normalized) club
+ +       0.2228 * (normalized) qui
+ +       0.5729 * (normalized) mondial
+ +       0.8869 * (normalized) femmes
+ +       0      * (normalized) équipe
+ +       1.39   * (normalized) secteur
+ +      -1      * (normalized) c
+ +       0.3737 * (normalized) pour
+ +       0.5794 * (normalized) ne
+ +      -0.234  * (normalized) homme
+ +      -0.559  * (normalized) plaint
+ +       0.2015 * (normalized) à
+ +      -0.9105 * (normalized) produits
+ +       0      * (normalized) plaints
+ +       0.1947 * (normalized) que
+ +       0.883  * (normalized) ces
+ +      -0.0008 * (normalized) il
+ +       1.0288 * (normalized) avait
+ +       0.0005 * (normalized) Il
+ +       0.0844 * (normalized) nous
+ +      -0.7169 * (normalized) -
+ +       1.112  * (normalized) rapport
+ +       1.1681 * (normalized) 2021
+ +      -0.2335 * (normalized) sont
+ +       0.1935 * (normalized) «
+ +      -1      * (normalized) habité
+ +      -0.7814 * (normalized) plaindre
+ +       0.866  * (normalized) c’est
+ +       0.4123 * (normalized) face
+ +       0.0386 * (normalized) en
+ +      -0.1798 * (normalized) Le
+ +      -0.1463 * (normalized) leur
+ +      -0.7816 * (normalized) femme
+ +      -0.6061 * (normalized) concentré
+ +      -0.1759 * (normalized) est
+ +      -0.6928 * (normalized) enfants
+ +       0.5214 * (normalized) me
+ +       0.0002 * (normalized) »
+ +       0.8405 * (normalized) pouvoir
+ +       0.5266 * (normalized) ont
+ +       0.5196 * (normalized) été
+ +       1.5937 * (normalized) mon
+ +      -0.1701 * (normalized) se
+ +       0.5554 * (normalized) n’a
+ +       0.1768 * (normalized) je
+ +       0.2843 * (normalized) a
+ +      -0.6329 * (normalized) jeunes
+ +      -0.3007 * (normalized) La
+ +      -0.0092 * (normalized) qu’il
+ +       0.0131 * (normalized) plus
+ +      -0.0001 * (normalized) ses
+ +       0.7493 * (normalized) n’est
+ +      -0.3615 * (normalized) un
+ +      -0.0904 * (normalized) ou
+ +      -0.0657 * (normalized) le
+ +       0.2121 * (normalized) lui
+ +      -0.0176 * (normalized) bien
+ +      -0.1359 * (normalized) pas
+ +      -0.0535 * (normalized) sur
+ +       0.4566 * (normalized) point
+ +       0.0286 * (normalized) comme
+ +       1.0619 * (normalized) C’est
+ +      -0.0005 * (normalized) Je
+ +      -0.0007 * (normalized) au
+ +      -0.4811 * (normalized) vie
+ +       0.2252 * (normalized) d’une
+ +       1.221  * (normalized) Nous
+ +       0.0004 * (normalized) sans
+ +       0.902  * (normalized) jour
+ +       1.4636 * (normalized) sera
+ +      -0.1393 * (normalized) autres
+ +       0.2863 * (normalized) même
+ +       0.4724 * (normalized) nos
+ +       0.0184 * (normalized) faire
+ +      -0.3958 * (normalized) notre
+ +      -0.2901 * (normalized) 5
+ -       0.9999
+
+Number of kernel evaluations: 102386759 (55.549% cached)
+
+Classifier for classes: MA, SN
+
+BinarySMO
+
+Machine linear: showing attribute weights, not support vectors.
+
+        -0.544  * (normalized) territoire
+ +       0.0615 * (normalized) marché
+ +       0.142  * (normalized) de
+ +       2.0167 * (normalized) Sénégal
+ +       1      * (normalized) Concentré
+ +      -0.5509 * (normalized) tu
+ +       1.9836 * (normalized) Dakar
+ +      -0.1398 * (normalized) d
+ +       1.6187 * (normalized) Sonko
+ +      -2.009  * (normalized) Maroc
+ +       0.2682 * (normalized) vous
+ +       0.0125 * (normalized) 1984
+ +       1.0374 * (normalized) Ousmane
+ +       0.0004 * (normalized) l
+ +      -0.7238 * (normalized) poids
+ +      -0.1721 * (normalized) BTP
+ +       0.015  * (normalized) la
+ +      -0.1158 * (normalized) et
+ +       0.097  * (normalized) des
+ +      -1      * (normalized) joueurs
+ +       0.1594 * (normalized) –
+ +       0.6466 * (normalized) n
+ +       1.7043 * (normalized) j
+ +       1      * (normalized) confinement
+ +       1.5168 * (normalized) Congo
+ +      -0.4266 * (normalized) film
+ +       1.6853 * (normalized) complète
+ +      -0.3507 * (normalized) ils
+ +       0.3523 * (normalized) qu
+ +       0.0751 * (normalized) du
+ +      -0.5117 * (normalized) match
+ +       1.5022 * (normalized) santé
+ +      -1      * (normalized) coach
+ +       1.7831 * (normalized) votre
+ +       0.4694 * (normalized) pays
+ +      -0.3675 * (normalized) pouvoirs
+ +      -0      * (normalized) perte
+ +      -0.1263 * (normalized) s
+ +      -0.239  * (normalized) rencontre
+ +       0.0376 * (normalized) dans
+ +       0.9435 * (normalized) critique
+ +       0.0384 * (normalized) les
+ +       0.0929 * (normalized) site
+ +      -0.3871 * (normalized) population
+ +      -1      * (normalized) club
+ +      -0.0337 * (normalized) qui
+ +       0.1581 * (normalized) mondial
+ +      -0.4434 * (normalized) femmes
+ +      -0.0997 * (normalized) équipe
+ +      -0.1223 * (normalized) secteur
+ +       0.2963 * (normalized) c
+ +       0.1864 * (normalized) pour
+ +       0.3591 * (normalized) ne
+ +      -0.5471 * (normalized) homme
+ +      -0.3945 * (normalized) plaint
+ +       0.0573 * (normalized) à
+ +      -0.0332 * (normalized) produits
+ +       1      * (normalized) plaints
+ +       0.1226 * (normalized) que
+ +       0.1602 * (normalized) ces
+ +       0.0273 * (normalized) il
+ +       1.0996 * (normalized) avait
+ +      -0.1258 * (normalized) Il
+ +      -0.1658 * (normalized) nous
+ +      -0.016  * (normalized) -
+ +      -0.1896 * (normalized) rapport
+ +       1.9231 * (normalized) 2021
+ +      -0.0366 * (normalized) sont
+ +       0.4229 * (normalized) «
+ +      -0.5137 * (normalized) plaindre
+ +       0.0899 * (normalized) c’est
+ +      -0.1487 * (normalized) face
+ +      -0.0561 * (normalized) en
+ +      -0.084  * (normalized) Le
+ +       0.1151 * (normalized) leur
+ +      -0.4633 * (normalized) femme
+ +       0.0198 * (normalized) concentré
+ +      -0.0351 * (normalized) est
+ +      -0.794  * (normalized) enfants
+ +      -0.0148 * (normalized) me
+ +       0.0072 * (normalized) »
+ +       1.542  * (normalized) pouvoir
+ +       1.107  * (normalized) ont
+ +       0.1534 * (normalized) été
+ +      -0.0436 * (normalized) mon
+ +       0.1371 * (normalized) se
+ +      -0.0828 * (normalized) n’a
+ +       0.0473 * (normalized) je
+ +       0.1857 * (normalized) a
+ +      -0.4316 * (normalized) jeunes
+ +      -0.1616 * (normalized) La
+ +       0.1791 * (normalized) qu’il
+ +      -0.0145 * (normalized) plus
+ +       0.047  * (normalized) ses
+ +      -0.2071 * (normalized) n’est
+ +      -0.0992 * (normalized) un
+ +      -0.1855 * (normalized) ou
+ +      -0.0254 * (normalized) le
+ +      -0.0375 * (normalized) lui
+ +       0.2546 * (normalized) bien
+ +      -0.0094 * (normalized) pas
+ +       0.0054 * (normalized) sur
+ +       1.5628 * (normalized) point
+ +      -0.0083 * (normalized) comme
+ +       0.8626 * (normalized) C’est
+ +      -0.0271 * (normalized) Je
+ +       0.1376 * (normalized) au
+ +      -0.2533 * (normalized) vie
+ +      -0.1605 * (normalized) d’une
+ +       1.5302 * (normalized) Nous
+ +       0.1474 * (normalized) sans
+ +       1.4521 * (normalized) jour
+ +       1.6053 * (normalized) sera
+ +      -0.109  * (normalized) autres
+ +       0.0812 * (normalized) même
+ +       1.4964 * (normalized) nos
+ +       0.4713 * (normalized) faire
+ +      -0.0574 * (normalized) notre
+ +      -0.1289 * (normalized) 5
+ -       0.9594
+
+Number of kernel evaluations: 105391690 (38.649% cached)
+
+
+
+Time taken to build model: 268.96 seconds
+
+=== Stratified cross-validation ===
+=== Summary ===
+
+Correctly Classified Instances        8362               35.8284 %
+Incorrectly Classified Instances     14977               64.1716 %
+Kappa statistic                          0.2186
+Mean absolute error                      0.2602
+Root mean squared error                  0.3657
+Relative absolute error                 93.903  %
+Root relative squared error             98.2489 %
+Total Number of Instances            23339     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.323    0.019    0.757      0.323    0.453      0.442    0.693     0.410     CD
+                 0.239    0.067    0.424      0.239    0.305      0.219    0.622     0.265     CI
+                 0.408    0.206    0.288      0.408    0.338      0.178    0.654     0.244     DZ
+                 0.670    0.353    0.322      0.670    0.435      0.257    0.677     0.298     FR
+                 0.211    0.088    0.315      0.211    0.253      0.145    0.615     0.223     MA
+                 0.208    0.050    0.409      0.208    0.276      0.214    0.643     0.242     SN
+Weighted Avg.    0.358    0.141    0.413      0.358    0.347      0.242    0.652     0.281     
+
+=== Confusion Matrix ===
+
+    a    b    c    d    e    f   <-- classified as
+ 1182  182  681 1191  259  166 |    a = CD
+   87  950  968 1454  307  215 |    b = CI
+   62  254 1615 1519  333  172 |    c = DZ
+   58  249  666 3135  379  191 |    d = FR
+   83  309  920 1406  793  249 |    e = MA
+   89  299  755 1026  448  687 |    f = SN
+
